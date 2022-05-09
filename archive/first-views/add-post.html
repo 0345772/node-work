@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Post</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        background: goldenrod;
+      }
+      .header-block {
+        padding: 5px;
+        background: black;
+      }
+      .header-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 10px;
+        /* color: white; */
+        list-style: none;
+      }
+      a {
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+      }
+
+
+      .form-text {
+        display: flex;
+        justify-content: flex-start;
+        margin: 15px;
+      }
+      .form-control {
+        width: 500px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="header-block">
+      <ul class="header-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/add-post">Add Post</a></li>
+        <li><a href="/contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <h1>Add Post</h1>
+    <form id="contact-form">
+      <div class="form-info">
+        <label>
+          Post Title
+          <input type="text" name="title" placeholder="title" />
+        </label>
+        <label>
+          Author
+          <input type="text" name="author" placeholder="firstName" />
+        </label>
+      </div>
+
+      <div class="form-text">
+        <label>
+          Post text
+          <textarea
+            class="form-control"
+            placeholder="text"
+            name="text"
+          ></textarea>
+        </label>
+      </div>
+      <div class="form-botton">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: rgb(194, 214, 249);
+}
+
+h1 {
+  font-family: roboto, arial, helvetica;
+  text-transform: uppercase;
+  text-align: center;
+  color: firebrick;
+}
+
+.header-block {
+  padding: 5px;
+  background: black;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+  /* color: white; */
+  list-style: none;
+}
+
+.post-title {
+  color: blue;
+}
+
+a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.form-info {
+  margin-left: 35px;
+}
+
+
+.form-text {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 20px;
+}
+
+.form-control {
+  width: 500px;
+  height: 150px;
+}
+
+.contacts-ul {
+  list-style: none;
+}
+
+.contacts-li {
+  margin-top: 5px;
+}
+
+.contacts-a {
+  color: blue;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(204, 206, 243);
+  opacity: 0.9;
+  margin: 20px;
+  border: 1px solid rgb(32, 7, 7);
+  padding: 10px 50px;
+  margin: 10px;
+  box-shadow: 1px 2px 6px black;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.post-title {
+  display: block;
+  color: rgb(25, 25, 116);
+  font-family: roboto;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.post-author {
+  color: black;
+  font-family: serif;
+  font-size: 16px;
+  font-variant: small-caps;
+
+}
+
+.post-date {
+  color: rgb(155, 28, 155);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.post-text {
+  color: rgb(9, 72, 9);
+  font-size: 17px;
+  font-style: oblique;
+}
+
+.btn-delete {
+  color: white;
+  background: red;
+  padding: 2px 10px;
+  border-radius: 4px;
+  box-shadow: 1px, 1px, 3px, 1px, rgb(27, 43, 186);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.control-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-li {
+  font-size: 16px;
+  border: 1px solid red;
+  padding: 5px 10px;
+  background: rgb(101, 222, 111);
+  box-shadow: 1px 1px 3px #000;
+  margin: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.form-button {
+  text-align: center;
+}
+
+.info-span {
+  width: 150%;
+  display: flex;
+  justify-content: space-between;
+}
